@@ -1,0 +1,61 @@
+# ================================= #
+#   __   __          _   _   _      #
+#   \ \ / /         | | (_) | |     #
+#    \ V /   _   _  | |  _  | |_    #
+#     > <   | | | | | | | | | __|   #
+#    / . \  | |_| | | | | | | |_    #
+#   /_/ \_\  \__, | |_| |_|  \__|   #
+#             __/ |                 #
+#            |___/                  #
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#          Powered by Xylit         #
+# ================================= #
+# SpigotDEV -> https://www.spigotmc.org/resources/authors/xylit.265936/
+# BukkitDEV -> https://dev.bukkit.org/members/MCR_Xylit
+# MinecronDEV -> https://dev.minecron.de/user/Xylit (Coming Soon)
+# Maxcron -> https://maxcron.de/user/Xylit (Coming Soon)
+# Github  -> https://github.com/MCR-Xylit
+
+
+#=========================================================#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+#               Please read the README.txt                 #
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+#=========================================================#
+
+# If a new Update is available, you'll get a Message at Join.
+NotifyUpdate: true
+
+# ====================
+#       Messages
+# ====================
+
+#Prefix | %player% (optional) | %time% (optional) | %message% (required!)
+Message: "&8(%time%)[&3Broadcast&8] &f%message%"
+
+MessageBase: "&8[&3Broadcaster&8] &f/bc <Message>"
+
+MessageNoPermission: "&8[&3Broadcaster&8] &cYou dont have the Permission to do that!"
+
+MessageReload: "&8[&3Broadcaster&8] &aReload complete!"
+
+MessageNotifyUpdate: "&8[&3Broadcaster&8] &fA new Update is available! > Version %version%"
+
+# ====================
+#     Permissions
+# ====================
+
+# /bc Command
+PermissionBase: "Broadcaster"
+
+# Broadcast Bypass
+PermissionBypass: "Broadcaster.Bypass"
+
+# /bcreload
+PermissionReload: "Broadcaster.Reload"
+
+# /bcupdate
+PermissionUpdate: "Broadcaster.Update"
+
+# Notify if Update is available
+PermissionNotifyUpdate: "Broadcaster.Update.Notify"

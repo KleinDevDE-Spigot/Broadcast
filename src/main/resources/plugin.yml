@@ -1,0 +1,13 @@
+name: Broadcaster
+main: de.maxcron.xylit.broadcaster.main
+author: Xylit
+version: 1.0.1
+
+commands:
+  bc:
+    description: Broadcast Message to Players
+    aliases: [broadcast, broadcaster]
+  bcreload:
+    description: Reloads the Config
+  bcupdate:
+    description: Update or Download the Plugin
